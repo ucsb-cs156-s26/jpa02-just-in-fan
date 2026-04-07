@@ -22,15 +22,11 @@ public class DeveloperTest {
 
     @Test
     public void getName_returns_correct_name() {
-        // TODO: Replace Chris G. with your name as shown on
-        // <https://bit.ly/cs156-s26-teams>
         assertEquals("Justin", Developer.getName());
     }
 
     @Test
     public void getGithubUsername_returns_correct_githubId() {
-        // TODO: Replace chrisg with your GitHub username as shown on
-        // <https://bit.ly/cs156-s26-teams>
         assertEquals("just-in-fan", Developer.getGithubId());
     }
 
